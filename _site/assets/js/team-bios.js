@@ -69,4 +69,5 @@ var data = {
 data.data.forEach(bio => $('.bios-list__item-container').append("<div class='grid-col-12 bio-rows grid-row flex-row flex-align-center'>" + "<div class='grid-col-12 tablet:grid-col-4 desktop:grid-col-2 bios-list__img'>" + "<img src='" + bio.img + "' />" + "</div>" + "<div class='grid-col-12 tablet:grid-col-8 desktop:grid-col-10 bios-list__item padding-x-4 padding-y-6'>" + "<h3 class='margin-bottom-0'><strong>" + bio.name + "</strong></h3>" + "<h3 class='bio__title margin-top-1'>" + bio.title + "</h3>" + "<p>" + bio.description + "</span>" +  "</div></div>")); 
 
 $(".bios-list__item-container p:empty" ).remove();
+$(".bios-list__item-container h3:empty" ).remove();
 
