@@ -105,3 +105,36 @@
 #publication-list .filter--checkboxes-header {
     margin-top: 12% !important; 
 }
+
+/* BIOS styles */
+#bios-list {
+    background: #000;
+}
+
+.bio__title {
+    color: #A9AEB1;
+}
+
+.bio-rows:nth-child(even) {
+    flex-flow: row-reverse;
+}
+
+@media screen and (max-width: 767px) {
+    .bios-list__img {
+        text-align: center;
+    }
+
+    .bio-rows:nth-child(even) {
+        flex-flow: column;
+    }
+
+    .bios-list__item h3 {
+        text-align: center;
+    }
+
+    .bios-list__item {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
