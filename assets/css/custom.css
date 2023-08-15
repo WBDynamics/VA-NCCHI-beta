@@ -108,7 +108,7 @@
 
 /* BIOS styles */
 #bios-list {
-    background: #000;
+    background: #171716;
 }
 
 .bio__title {
@@ -117,6 +117,10 @@
 
 .bio-rows:nth-child(even) {
     flex-flow: row-reverse;
+}
+
+.bios-list__item > h3.bio__title {
+    margin-top: .5rem;
 }
 
 @media screen and (max-width: 767px) {
@@ -135,6 +139,10 @@
     .bios-list__item {
         padding-left: 0;
         padding-right: 0;
+    }
+
+    .bios-list__item > h3 {
+        margin-top: 1rem;
     }
 }
 

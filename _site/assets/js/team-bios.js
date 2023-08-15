@@ -56,17 +56,17 @@ var data = {
             "description": "Ben comes from a mechanical engineering background with an MS in rehabilitation engineering. Now at his 3rd VA hospital, Ben started his time in VA working alongside rehabilitation therapists in the clinic to help provide the best combination of assistive technology to Veterans, many times building customizations unique to a Veteran" + "&#8217;" + "s needs using 3D design & printing.  He then became an Innovation Specialist, supporting local staff projects and providing training as part of the VHA Innovators Network. His focus at NCCHI is on supporting projects through the use of advanced fabrication and extended reality technology. Ben is passionate about leveraging technology in new ways to solve VA healthcare challenges.  When not at the hospital, Ben enjoys biking, reading, exploring CA and visiting other countries."
         },
         {
-            "name": "Benjamin Salatin, MS",
-            "title": "Mechanical Engineer",
-            "img": "../assets/img/home/team-salatin.png",
-            "description": "Ben comes from a mechanical engineering background with an MS in rehabilitation engineering. Now at his 3rd VA hospital, Ben started his time in VA working alongside rehabilitation therapists in the clinic to help provide the best combination of assistive technology to Veterans, many times building customizations unique to a Veteran" + "&#8217;" + "s needs using 3D design & printing.  He then became an Innovation Specialist, supporting local staff projects and providing training as part of the VHA Innovators Network. His focus at NCCHI is on supporting projects through the use of advanced fabrication and extended reality technology. Ben is passionate about leveraging technology in new ways to solve VA healthcare challenges.  When not at the hospital, Ben enjoys biking, reading, exploring CA and visiting other countries."
+            "name": "Brian Higgins",
+            "title": "Innovator",
+            "img": "../assets/img/home/team-higgins.png",
+            "description": ""
         }                                                              
     ]
 
 }
 
 
-data.data.forEach(bio => $('.bios-list__item-container').append("<div class='grid-col-12 bio-rows grid-row flex-row flex-align-center'>" + "<div class='grid-col-12 tablet:grid-col-4 desktop:grid-col-2 bios-list__img'>" + "<img src='" + bio.img + "' />" + "</div>" + "<div class='grid-col-12 tablet:grid-col-8 desktop:grid-col-10 bios-list__item padding-x-4 padding-y-6'>" + "<h3 class='margin-bottom-0'><strong>" + bio.name + "</strong></h3>" + "<h3 class='bio__title margin-top-1'>" + bio.title + "</h3>" + "<p>" + bio.description + "</span>" +  "</div></div>")); 
+data.data.forEach(bio => $('.bios-list__item-container').append("<div class='grid-col-12 bio-rows grid-row flex-row'>" + "<div class='grid-col-12 tablet:grid-col-2 desktop:grid-col-2 bios-list__img'>" + "<img alt='" + bio.name + " " + bio.title + "' src='" + bio.img + "' />" + "</div>" + "<div class='grid-col-12 tablet:grid-col-10 desktop:grid-col-10 bios-list__item padding-x-4 padding-bottom-6'>" + "<h3 class='margin-top-0 margin-bottom-0'>" + bio.name + "</h3>" + "<h3 class='bio__title'>" + bio.title + "</h3>" + "<p>" + bio.description + "</span>" +  "</div></div>")); 
 
 $(".bios-list__item-container p:empty" ).remove();
 $(".bios-list__item-container h3:empty" ).remove();
